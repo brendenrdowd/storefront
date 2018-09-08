@@ -1,0 +1,11 @@
+
+.blog-grid{
+    padding:1em;
+    z-index: 1
+}
+textarea{
+    resize: none;
+}
+section{
+    padding:1em;
+}
