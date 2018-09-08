@@ -3,7 +3,7 @@ const express = require("express"),//require is node's way of importing(ES6 has 
     nodemailer = require('nodemailer'),
     dotenv = require('dotenv').config(),
     app = express(),
-    port = 1000,
+    port = process.env.PORT || 1000,
     bP = require("body-parser"),
     path = require("path"),
     session = require("express-session");
@@ -14,11 +14,6 @@ app.use(session({ secret: process.env.SESSION_PW }));
 
 app.set("views", path.join(__dirname, "./client"));
 app.set("view engine", "ejs");
-
-
-if (result.error) {
-    throw result.error
-}
 
 //routing
 app.get('/', function (req, res) {
