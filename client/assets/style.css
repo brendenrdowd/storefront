@@ -9,3 +9,9 @@ textarea{
 section{
     padding:1em;
 }
+.sub-title{
+    margin-top:0;
+}
+.photobar-item{
+    display:inline-block;
+}

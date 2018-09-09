@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.14/css/uikit.min.css" />
+    <link rel="stylesheet" href="assets/style.css">
+    <title>About</title>
+</head>
+
+<body>
+
+    <nav class="uk-navbar-container" uk-sticky="top" uk-navbar>
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav" uk-scrollspy-nav="cls: uk-active; closest: li; scroll: true; offset:200;">
+                <li><a href="/"><strong>Lefebvre Wood</strong></a></li>
+                <li>
+                    <a href="/#about">About</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="/about">Company</a></li>
+                            <li><a href="#team">Our Team</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="/#shop">Shop</a></li>
+                <li><a href="/#blog">Blog</a></li>
+                <li><a href="/#social">Social Media</a></li>
+                <li><a href="/#locate">Locate Us</a></li>
+                <li>
+                    <a href="#" class="uk-active">Connect</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="/contact">Contact Us</a></li>
+                            <li><a href="#contact">Mailing List</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="uk-navbar-right">
+
+            <ul class="uk-navbar-nav">
+                <li><a href="#"><span uk-icon="icon: user"></span></a></li>
+                <li><a href="#"><span uk-icon="icon: cart"></span></a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <!-- photobar -->
+    <div class="uk-child-width-1-6 uk-grid-small uk-text-center" uk-grid>
+        <img class="uk-height-small" src="https://images.unsplash.com/photo-1531824475211-72594993ce2a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4de02145f4d6671a8771ec7ae742d07e&auto=format&fit=crop&w=1350&q=80"
+            alt="">
+        <img class="uk-height-small" src="https://images.unsplash.com/photo-1515445946706-a8024608d459?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=476ff52a828a1d3d7703f9249dac3e07&auto=format&fit=crop&w=1350&q=80"
+            alt="">
+        <img class="uk-height-small" src="https://images.unsplash.com/photo-1528509381049-da52e681a998?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d1637763c27dbf5748cbbdfaca8a98d3&auto=format&fit=crop&w=1351&q=80"
+            alt="">
+        <img class="uk-height-small" src="https://images.unsplash.com/photo-1518710360638-d36af72062d7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=491f18f4383aa9ff189ed26674e28c69&auto=format&fit=crop&w=1350&q=80"
+            alt="">
+        <img class="uk-height-small" src="https://images.unsplash.com/photo-1524098837898-6b1c101a85f6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fb244e40d62662b07e55c0877beadf1f&auto=format&fit=crop&w=1350&q=80"
+            alt="">
+        <img class="uk-height-small" src="https://images.unsplash.com/photo-1520932045074-534bdf08bd12?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f0a8c2615fa09e1a7293450ff6388adf&auto=format&fit=crop&w=1350&q=80"
+            alt="">
+    </div>
+    <hr class=" uk-divider-icon">
+
+    <div class="uk-container">
+        <section class="uk-section-muted uk-align-center" id="map" #map>
+            <h2 class="uk-heading-divider uk-text-center">Location</h2>
+            <iframe class="uk-align-center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.8298701498325!2d-122.1703478841693!3d47.609997695736205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906c45bcd8adff%3A0x495cb8c42acd9cb3!2sMain+St%2C+Bellevue%2C+WA!5e0!3m2!1sen!2sus!4v1536458389355"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            <div class="uk-grid-small uk-child-width-1-4@s uk-flex-center uk-text-center" uk-grid>
+                <div class="uk-flex-first">
+                    <div class="uk-tile uk-tile-default uk-align-center uk-padding-small">
+                        <h4>Lefebvre Wood</h4>
+                        <p>123 Main St.</p>
+                        <p>Bellevue, WA, 98004</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="uk-divider-icon">
+
+        <section class="uk-section-muted" id="" #>
+            <table></table>
+        </section>
+
+        <hr class="uk-divider-icon">
+
+        <section class="uk-section-muted" id="contactform" #contactform>
+            <form></form>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer uk-sticky="bottom: true">
+        <div class="uk-container">
+            <div class="uk-child-width-1-2@s uk-grid-small uk-text-center" uk-grid>
+                <div class="uk-tile uk-tile-muted">
+                    <h5 class="uk-heading-divider uk-text-center">Store Information</h5>
+                    <ul class="uk-list uk-text-left">
+                        <li><span uk-icon="receiver"></span> (206) 555-5555</li>
+                        <li><a href="https://goo.gl/maps/TKV4jjgwVgS2">123 main st. <br> Bellevue, WA</a></li>
+                        <li></li>
+                        <li>Mon-Fri: 10am-6pm</li>
+                        <li>Sat: 12pm-5pm</li>
+                    </ul>
+                </div>
+                <div class="uk-tile uk-tile-muted">
+                    <h5 class="uk-heading-divider uk-text-center">Contact</h5>
+                    <ul class="uk-list uk-text-left">
+                        <li><span uk-icon="receiver"></span> (206) 555-5555</li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="uk-tile uk-tile-secondary uk-padding-small">
+            <p>© Copyright Brenden Dowd 2018</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.14/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.14/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
